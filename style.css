@@ -1,0 +1,121 @@
+body{
+        
+        margin: 0;
+        color: whitesmoke;
+}
+
+
+.top-container{
+    background-color: rgb(160, 196, 157);
+    height: 64vh;
+    display: flex;
+    padding: 0;
+    
+}
+.box{
+    display: flex;
+    height: 63.8vh;
+}
+.bottombox{
+    height: 200px;
+    width: 250px;
+    border: solid 3px;
+    align-self: flex-end;
+    margin-right:-50px ;
+}
+.midbox{
+    height: 150px;
+    width: 200px;
+    border: solid 3px;
+    align-self: center;
+}
+.topbox{
+    height: 130px;
+    width: 180px;
+    border: solid 3px;
+    align-self: top;
+    margin-top: 70px;
+    margin-left: -50px;
+}
+.titlebox {
+    text-align: center;
+    margin: 80px;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 1.5rem;
+    margin-top: 150px;
+}
+.profile{
+    margin: 25px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+}
+.profiletext{
+    padding-left: 25px;
+    text-align: justify;
+    color: rgb(67, 83, 52);
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.9rem;
+}
+p{
+    color: black;
+    font-size: 17px;
+}
+
+
+@media(max-width:850px){
+    .top-container{
+        height: 50vh;
+    }
+    .bottombox{
+        height: 100px;
+        width: 125px;
+    }
+    .midbox{
+        height: 75px;
+        width: 100px;
+        margin-top: 110px;
+    }
+    .topbox{
+        height: 65px ;
+        width: 90px;
+        margin-top: 140px;
+        margin-left: -40px;
+    }
+    .titlebox{
+        font-size: 1rem;
+    }
+    .profile{
+        flex-direction: column;
+        height: 280px; 
+        align-items: center;
+    }
+    .box{
+        height: 48.8vh;       
+    }
+    img{
+        height: 140px;
+        width: 140px;
+    }
+    .profiletext{
+        font-size: 20px;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    
+
+}
+
+
+
+
+
