@@ -1,16 +1,12 @@
 body{
-        
-        margin: 0;
-        color: whitesmoke;
+   margin: 0;
+   color: whitesmoke;
 }
-
-
 .top-container{
     background-color: rgb(160, 196, 157);
     height: 64vh;
     display: flex;
-    padding: 0;
-    
+    padding: 0; 
 }
 .box{
     display: flex;
@@ -78,16 +74,17 @@ p{
     .bottombox{
         height: 100px;
         width: 125px;
+        margin-bottom: 10px;
     }
     .midbox{
         height: 75px;
         width: 100px;
-        margin-top: 110px;
+        margin-top: 20px;
     }
     .topbox{
         height: 65px ;
         width: 90px;
-        margin-top: 140px;
+        margin-top: 60px;
         margin-left: -40px;
     }
     .titlebox{
