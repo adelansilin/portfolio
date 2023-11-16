@@ -72,8 +72,8 @@ p{
             flex-direction:column;
     }
     .bottombox{
-        height: 100px;
-        width: 125px;
+        height: 85px;
+        width: 110px;
         margin-bottom: 10px;
     }
     .midbox{
@@ -84,7 +84,7 @@ p{
     .topbox{
         height: 65px ;
         width: 90px;
-        margin-top: 55px;
+        margin-top: 40px;
         margin-left: -40px;
     }
     .titlebox{
