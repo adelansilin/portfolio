@@ -36,8 +36,7 @@ body{
 .titlebox {
     text-align: center;
     margin: 80px;
-    font-family: 'Libre Baskerville', serif;
-    font-family: 'PT Serif Caption', serif;
+    font-family: "Merriweather", serif;
     font-size: 1.5rem;
     margin-top: 150px;
 }
@@ -63,6 +62,65 @@ img{
 p{
     color: black;
     font-size: 17px;
+}
+.mid-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+a{
+    text-decoration: none;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(153, 176, 128);
+    border-radius: 5px;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+}
+.table{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 18px;
+    color:rgb(247, 255, 229);
+    font-family: "Montserrat", sans-serif;
+}
+.bottom-container{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.bottom-container h2{
+    color: rgb(67, 83, 52);
+    font-size: 1.7rem;
+}
+.bottom-container h3{
+    color: rgb(79, 111, 82);
+    font-size: 1.17rem;
+}
+.bottom-container p{
+    width: 50%;
+    text-align: center;
+    margin: 40px auto 60px;
+    line-height: 1.5;
+    
+}
+.foot-container{
+    background-color:rgb(153, 176, 128) ;
+    text-align: center;
+    padding: 50px  20px;
+}
+.footer-link{
+    margin: 10px 20px;
+    background-color: none;
+}
+.copyright{
+    color: whitesmoke;
+    font-family: "Merriweather", serif;
+    font-size: 1 rem;
+    margin: 10px 20px;
+    padding: 20px 0;
 }
 
 
