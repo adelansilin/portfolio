@@ -169,7 +169,12 @@ a{
     h2{
         text-align: center;
     }
-    
+    .mid-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
 
 }
 
