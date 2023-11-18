@@ -98,13 +98,14 @@ a{
 .bottom-container h3{
     color: rgb(79, 111, 82);
     font-size: 1.17rem;
+   margin: 0px 5px;
 }
 .bottom-container p{
     width: 50%;
     text-align: center;
     margin: 40px auto 60px;
     line-height: 1.5;
-    
+    font-size:0.9 rem;
 }
 .foot-container{
     background-color:rgb(153, 176, 128) ;
@@ -118,7 +119,7 @@ a{
 .copyright{
     color: whitesmoke;
     font-family: "Merriweather", serif;
-    font-size: 1 rem;
+    font-size: 15 px;
     margin: 10px 20px;
     padding: 20px 0;
 }
